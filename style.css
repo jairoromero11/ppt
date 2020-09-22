@@ -6,8 +6,7 @@ body {
 }
 
 button {
-    color: white;
-    background-color: red;
+    background-color: #ccda46;
     padding: 8px 14px 8px 14px;
     margin: 10px;
     border: 1px;
@@ -19,6 +18,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(145, 84, 206);
+    background-color: #697c37;
     cursor: pointer;
+    color: white;
 }
