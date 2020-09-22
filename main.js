@@ -6,6 +6,9 @@ var btnTijera = document.getElementById('btnTijera');
 var lblUser = document.getElementById('lblUser');
 var lblCpu = document.getElementById('lblCpu');
 var lblWin = document.getElementById('lblWin');
+var lblResUser = document.getElementById('lblResUser');
+var lblResCpu = document.getElementById('lblResCpu');
+
 
 //arreglo
 var opciones = ["Piedra", "Papel", "Tijera"];
@@ -40,8 +43,8 @@ function startGame(value) {
     lblUser.innerHTML = opciones[userSelection];
     lblCpu.innerHTML = opciones[cpuSelection];
     lblWin.innerHTML = resultado;
-    lblpuntajeUser.innerHTML = puntajeUser;
-    lblpuntajeCpu.innerHTML = puntajeCpu;
+    lblResUser.innerHTML = puntajeUser;
+    lblResCpu.innerHTML = puntajeCpu;
 }
 //va a comparar la seleccion  del usuario y la cpuSelection
 
